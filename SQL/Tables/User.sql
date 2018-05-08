@@ -3,4 +3,9 @@ CREATE TABLE User
 id INT NOT NULL,
 firstname NVARCHAR (255) NOT NULL ,
 lastname NVARCHAR (255) NOT NULL, 
+email NVARCHAR (50) NOT NULL,
+useraddress NVARCHAR (255) NOT NULL,
+phonenumber INT NOT NULL,
+
+PRIMARY KEY (id), 
 )
